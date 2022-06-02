@@ -21,6 +21,26 @@ public:
    }
 
 };
+class cemployee {
+public:
+
+   int sal;
+   char des[100];
+
+
+   void comp() {
+
+       cout << "Enter Designation : ";
+       cin.getline(des, 100);
+
+       cout << "Enter Salary : ";
+       cin>>sal;
+       cin.get();
+
+   }
+
+};
+
 int main() {
 
    College obj;
